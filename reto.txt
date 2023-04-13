@@ -1,0 +1,19 @@
+En el texto siguiente:
+555658
+56-58-11
+56.58.11
+56.78-98
+65 09 87
+76y87r98
+
+Definir un patrón que haga match a todas las líneas excepto a la la última, la que tiene letras.
+
+Es decir, seleccionar todas sin importar el caracter de separación, excepto cuando los números están separados entre sí por letras.
+
+mio
+[0-9]{2,2}[^a-zA-Z]+
+
+ok 
+\d\d\W?\d\d\W?\d\d
+(\d{2}\W?){3}
+\d{2,}[^a-z]+

@@ -1,0 +1,94 @@
+1
+12
+123
+1234
+12345
+12345678910asdf
+csv1,csv2,csv3
+234,234,234
+457,785,365
+csv1,csv2,csv3,3434
+13453243
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+csv1,csv2,csv3,csv4,csv5 |  csv1, csv2, csv3, csv4, csv5 |  csv1. csv2; csv3. csv4: csv5
+Rodrigo Jiménez Gutiérrez
+5556581111
+56-58-11-12
+302-345-9876
+302 34 9876 1 7845
+30.34.876.1.7845
+31-01-2000 | 31/01/2000 | 1900-12-31
+esto.es.un.mail+gmail@mail.com | asd_sdf_@gmail.com | dominio.com
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [LOG] [user:@beco] Clicked here
+[LOG ENTRY] [LOG] [user:@beco] Rated the app
+[LOG ENTRY] [LOG] [user:@beco] Logged out
+123       
+12-456        
+!@#$% $%%^* &*(&*( 23423) )
++54 388 5377055 
++51 999998555
+Únete a nuestro curso completo 23 para mostrarte cómo crear una tienda online profesional
+y totalmente personlizada con WordPress y WooCommerce. Independientemente, del propósito
+de tu, tienda online, este curso te mostrará todo lo que necesita saber para crear 
+tienda online impresionante.+51 999998455 He estado creando 55 y usando tiendas virtuales durante másde 5 años para mis negocios en línea, lo que me convierte en el más* calificado par enseñarte sobre cómo crear una tienda online desde cero con WordPress y WooCommerce.
+
+------------------------------------------------------------------
+
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [WARN] Microsoft just bought Github
+[LOG DATA] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [LOG] [user:@beco] Clicked here
+[LOG DATA] [LOG] [user:@celismx] Did something
+[LOG ENTRY] [LOG] [user:@beco] Rated the app
+[LOG ENTRY] [LOG] [user:@beco] Logged out
+[LOG LINE] [LOG] [user:@celismx] Logged in
+
+/\[LOG.*\[WARN\].*/g
+/\[LOG.*\[LOG\].*/g
+/\[LOG.*\[LOG\].*user:@celismx] .*/g
+
+----------------------------------------------- url
+ejemplo: URL 
+url: https://www.go-ogle.com
+url: http://www.google.com.pe
+url: http://www.fulldominio.google.com.pe?pgp=3
+url: http://fulldominio.google.com.pe?pgp=3
+https://www.fulldominio.google.com.pe?pgp=3
+http://www.fulldo-minio.google.com.pe?pgp=3
+https://www.fulldominio.google.com.pe?pgp=3
+https://fulldominio.google.com.pe?pgp=3   ddd ddd // **f.. 
+
+resp
+https?:\/\/((www)+\.)?[\w\-]+\.\w{2,6}(\/?)\S*
+
+--------------------------------------------------- correo
+
+ - esto.es.un.mail+gmail@mail.com sdsd sd @sd sd sd
+esto.es_un.mail@mail.com
+1 esto.es_un.mail+complejo@mail.com
+dominio.com
+rodr-igo.jimenez@yahoo.com.mx
+ruben@starbucks.com
+esto_no$es_email@dominio.com.pe
+no_se_de_internet3@hotmail.com.cl
+Patron
+
+alumonos
+[\w\._]{3,30}\+?\w{0,10}@[\w\-\.]{3,}\.\w{2,5}
+clase
+[\w\._]{3,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5}              ok
+mode
+[\w\.\-_]{3,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5}
+mod1
+[\w\.\-_]{3,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5}
+solo chile
+[\w\._]{3,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.cl
